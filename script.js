@@ -57,15 +57,8 @@ function loadPhoto(){
 // ======================================
 
 startBtn.addEventListener("click", () => {
-
-    const music = document.getElementById("bgMusic");
-
-    music.play().catch(() => {});
-
     showPage(countdownPage);
-
     startCountdown();
-
 });
 
 // ======================================
